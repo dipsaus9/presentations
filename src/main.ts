@@ -1,8 +1,11 @@
-import Vue from 'vue'
-import App from './App.vue'
+import Vue from 'vue';
+import App from './App.vue';
+import UiFields from 'vue-ui-fields';
 
-Vue.config.productionTip = false
+Vue.use(UiFields);
+
+Vue.config.productionTip = false;
 
 new Vue({
-  render: h => h(App),
-}).$mount('#app')
+	render: (h) => h(App),
+}).$mount('#app');

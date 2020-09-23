@@ -1,29 +1,45 @@
 {
-  "name": "ui-fields",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
-  },
-  "dependencies": {
-    "core-js": "^3.6.5",
-    "vue": "^2.6.11",
-    "vue-class-component": "^7.2.3",
-    "vue-property-decorator": "^8.4.2"
-  },
-  "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^2.33.0",
-    "@typescript-eslint/parser": "^2.33.0",
-    "@vue/cli-plugin-babel": "~4.5.0",
-    "@vue/cli-plugin-eslint": "~4.5.0",
-    "@vue/cli-plugin-typescript": "~4.5.0",
-    "@vue/cli-service": "~4.5.0",
-    "@vue/eslint-config-typescript": "^5.0.2",
-    "eslint": "^6.7.2",
-    "eslint-plugin-vue": "^6.2.2",
-    "typescript": "~3.9.3",
-    "vue-template-compiler": "^2.6.11"
-  }
+	"name": "ui-fields",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "vue-cli-service serve",
+		"build": "vue-cli-service build",
+		"lint": "vue-cli-service lint"
+	},
+	"dependencies": {
+		"core-js": "^3.6.5",
+		"eagle.js": "^0.6.1",
+		"vue": "^2.6.11",
+		"vue-class-component": "^7.2.3",
+		"vue-property-decorator": "^8.4.2"
+	},
+	"devDependencies": {
+		"@babel/core": "*",
+		"@babel/preset-env": "*",
+		"@types/validator": "^13.1.0",
+		"@typescript-eslint/eslint-plugin": "^2.33.0",
+		"@typescript-eslint/parser": "^2.33.0",
+		"@vue/cli-plugin-babel": "~4.5.0",
+		"@vue/cli-plugin-eslint": "~4.5.0",
+		"@vue/cli-plugin-typescript": "^4.5.4",
+		"@vue/cli-service": "~4.5.0",
+		"@vue/eslint-config-typescript": "^5.0.2",
+		"babel-eslint": "^10.1.0",
+		"core-js": "^3.6.5",
+		"eslint": "^7.7.0",
+		"eslint-config-prettier": "^6.11.0",
+		"eslint-plugin-prettier": "^3.1.4",
+		"eslint-plugin-vue": "^6.2.2",
+		"glob": "^7.1.6",
+		"highlight.js": "^10.2.0",
+		"prettier": "^2.0.5",
+		"reveal.js": "^4.0.2",
+		"sass": "^1.26.11",
+		"sass-loader": "^10.0.2",
+		"typescript": "~3.9.3",
+		"vue": "^2.6.11",
+		"vue-template-compiler": "^2.6.11",
+		"vue-ui-fields": "^4.2.1"
+	}
 }
