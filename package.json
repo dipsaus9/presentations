@@ -36,7 +36,9 @@
 		"reveal.js": "^4.0.2",
 		"sass": "^1.26.11",
 		"sass-loader": "^10.0.2",
+		"simple-crypto-js": "^3.0.0",
 		"typescript": "~3.9.3",
+		"validator": "^13.1.17",
 		"vue": "^2.6.11",
 		"vue-template-compiler": "^2.6.11",
 		"vue-ui-fields": "^4.2.1"
